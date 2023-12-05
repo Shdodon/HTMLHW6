@@ -157,3 +157,58 @@ img {
     font-weight: 400;
     line-height: normal;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% -384px);
+    }
+    .top_head {
+        display: flex;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .mid_box {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 24px;
+        padding-bottom: 20px;
+    }
+    .mid_box_content_line {}
+}
+
+@media (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% -384px);
+    }
+    .top_head {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .mid_box {
+        display: flex;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .mid_box_content_line {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
