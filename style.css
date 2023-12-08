@@ -53,6 +53,8 @@ img {
     align-items: center;
 }
 
+.tp_text {}
+
 .th_name {
     max-width: 15vh;
 }
@@ -193,9 +195,42 @@ img {
         align-content: center;
         justify-content: center;
         align-items: center;
+        padding: 50px 0px 50px 0px;
+    }
+    .tp_text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 10px 0 0 10px;
+    }
+    .tp_img {
+        display: none;
+    }
+    .th_name {
+        color: #222;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    .of_luxerious {
+        color: #222;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .fashion {
+        color: #F16D7F;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
     .mid_box {
-        display: flex;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -204,6 +239,32 @@ img {
         align-items: center;
     }
     .mid_box_content_line {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .mbc_item {
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .mbc_title {
+        color: #F16D7F;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .bot_box_content {
+        padding: 5px;
+    }
+    .bot_buttons {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
