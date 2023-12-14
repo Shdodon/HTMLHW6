@@ -178,6 +178,7 @@ img {
     align-content: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .bot_box {
@@ -233,6 +234,7 @@ img {
     align-content: center;
     justify-content: center;
     align-items: center;
+    padding: 50px 5px 100px 5px;
 }
 
 .button {
@@ -241,7 +243,8 @@ img {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 5px;
+    padding: 10px 15px 10px 15px;
+    background-color: #FFF;
 }
 
 .addition {
@@ -252,16 +255,37 @@ img {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    background-color: #222222;
+    color: #FFF;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
 }
 
 .addition_content {
-    display: flex;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
+    gap: 3vh;
+}
+
+.addition_content_head {
+    color: #FBFBFB;
+    font-size: 19.96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.addition_content_pargraph {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 13.972px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 
 .end {
@@ -269,9 +293,13 @@ img {
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     padding: 50px 10px 50px 10px;
+    /* background-image: url('img/background.svg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background: url('img/background.svg'), lightgray 0px -169px / 100% 246.875% no-repeat;
 }
 
 .end_content {
@@ -282,10 +310,14 @@ img {
     justify-content: center;
     align-items: center;
     max-width: 360px;
-    text-align: center
+    text-align: center;
+    padding: 5px 20px 5px 20px;
 }
 
-.ec_paragraph {}
+.ec_paragraph {
+    display: flex;
+    gap: 2vh;
+}
 
 .ec_titl {
     color: #222224;
@@ -341,6 +373,14 @@ img {
     align-items: center;
     align-content: center;
     flex-direction: row;
+    gap: 10vh;
+    background-color: #222;
+    color: #FBFBFB;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1vh;
 }
 
 .footer_img {}
